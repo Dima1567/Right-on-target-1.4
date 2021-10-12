@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EA6576752715B2460050A3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576742715B2460050A3D3 /* AppDelegate.swift */; };
 		EA6576772715B2460050A3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576762715B2460050A3D3 /* SceneDelegate.swift */; };
-		EA6576792715B2460050A3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576782715B2460050A3D3 /* ViewController.swift */; };
+		EA6576792715B2460050A3D3 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576782715B2460050A3D3 /* NumberViewController.swift */; };
 		EA65767C2715B2460050A3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA65767A2715B2460050A3D3 /* Main.storyboard */; };
 		EA65767E2715B2470050A3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA65767D2715B2470050A3D3 /* Assets.xcassets */; };
 		EA6576812715B2470050A3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA65767F2715B2470050A3D3 /* LaunchScreen.storyboard */; };
+		EA65768A2715B27C0050A3D3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576892715B27C0050A3D3 /* Game.swift */; };
+		EA65768C2715B2AE0050A3D3 /* GameRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65768B2715B2AE0050A3D3 /* GameRound.swift */; };
+		EA65768E2715B2CD0050A3D3 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65768D2715B2CD0050A3D3 /* Generator.swift */; };
+		EA6576902715B64B0050A3D3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65768F2715B64B0050A3D3 /* ColorViewController.swift */; };
+		EA6576922715B6760050A3D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6576912715B6760050A3D3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA6576712715B2460050A3D3 /* 1. Right on target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. Right on target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6576742715B2460050A3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA6576762715B2460050A3D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA6576782715B2460050A3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA6576782715B2460050A3D3 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		EA65767B2715B2460050A3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA65767D2715B2470050A3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6576802715B2470050A3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA6576822715B2470050A3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6576892715B27C0050A3D3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EA65768B2715B2AE0050A3D3 /* GameRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRound.swift; sourceTree = "<group>"; };
+		EA65768D2715B2CD0050A3D3 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		EA65768F2715B64B0050A3D3 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		EA6576912715B6760050A3D3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		EA6576732715B2460050A3D3 /* 1. Right on target */ = {
 			isa = PBXGroup;
 			children = (
+				EA6576882715B25D0050A3D3 /* Model */,
 				EA6576742715B2460050A3D3 /* AppDelegate.swift */,
 				EA6576762715B2460050A3D3 /* SceneDelegate.swift */,
-				EA6576782715B2460050A3D3 /* ViewController.swift */,
+				EA65768F2715B64B0050A3D3 /* ColorViewController.swift */,
+				EA6576782715B2460050A3D3 /* NumberViewController.swift */,
+				EA6576912715B6760050A3D3 /* MainViewController.swift */,
 				EA65767A2715B2460050A3D3 /* Main.storyboard */,
 				EA65767D2715B2470050A3D3 /* Assets.xcassets */,
 				EA65767F2715B2470050A3D3 /* LaunchScreen.storyboard */,
 				EA6576822715B2470050A3D3 /* Info.plist */,
 			);
 			path = "1. Right on target";
+			sourceTree = "<group>";
+		};
+		EA6576882715B25D0050A3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA6576892715B27C0050A3D3 /* Game.swift */,
+				EA65768B2715B2AE0050A3D3 /* GameRound.swift */,
+				EA65768D2715B2CD0050A3D3 /* Generator.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6576792715B2460050A3D3 /* ViewController.swift in Sources */,
+				EA6576792715B2460050A3D3 /* NumberViewController.swift in Sources */,
 				EA6576752715B2460050A3D3 /* AppDelegate.swift in Sources */,
 				EA6576772715B2460050A3D3 /* SceneDelegate.swift in Sources */,
+				EA65768E2715B2CD0050A3D3 /* Generator.swift in Sources */,
+				EA6576902715B64B0050A3D3 /* ColorViewController.swift in Sources */,
+				EA65768C2715B2AE0050A3D3 /* GameRound.swift in Sources */,
+				EA65768A2715B27C0050A3D3 /* Game.swift in Sources */,
+				EA6576922715B6760050A3D3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dima-Savitskiy.---Right-on-target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -312,6 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dima-Savitskiy.---Right-on-target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
